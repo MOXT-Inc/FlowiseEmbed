@@ -52,8 +52,6 @@ export const Badge = (props: Props) => {
       color: props.poweredByTextColor ?? defaultTextColor,
       "background-color": props.badgeBackgroundColor ?? '#ffffff'
     }}>AI生成のため正確性は保証されません。自己責任で利用ください。
-    
-       AIによる自動生成回答を利用しており、内容を鵜呑みにせずご自身で確認をお願いします。
     </span>
   )
 }
